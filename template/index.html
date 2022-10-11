@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/favico/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Rocketflix</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="main.js"></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <img
+        class="arrow"
+        src="assets/favico/android-chrome-192x192.png"
+        alt=""
+      />
+      <h1>Não sabe o que assistir?</h1>
+
+      <!-- <div id="dataMovie" class="showMovie"></div> -->
+      <div class="controlMovie">
+        <img id="imgMovie" src="" alt="" />
+        <div class="textWrapper">
+          <div id="dataMovie" class="showMovie"></div>
+          <div id="subtitleMovie"></div>
+        </div>
+      </div>
+
+      <div class="controlBtn">
+        <button class="btnMovie">
+          <div class="btnWrapper">
+            <img
+              class="arrowBtn"
+              src="assets/favico/favicon-32x32.png"
+              alt=""
+            />
+            <h4>Encontrar filme</h4>
+          </div>
+        </button>
+      </div>
+
+      <div class="extraText">
+        <p>Clique em "Encontrar filme" que traremos informações</p>
+        <p>de algum filme para você assistir hoje.</p>
+      </div>
+    </main>
+  </body>
+</html>
