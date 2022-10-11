@@ -27,7 +27,6 @@ function click() {
 
   button.addEventListener("click", () => {
     getUrl();
-    console.log("parei aqui");
   });
 }
 
